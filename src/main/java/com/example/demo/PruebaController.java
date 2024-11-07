@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class PruebaController {
     @GetMapping("/prueba")
     public String Saludar(){
-        return "Hola_MundoController";
+        return "Hola_Mundo_Controller";
     }
 }
